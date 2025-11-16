@@ -1,0 +1,14 @@
+En-crip-ing Time (2024) with George Simms
+Experimental Essay & Web-Based Performance
+
+A collaboration with artist and researcher George Simms within the framework of MESH Festival 2024, contributing to a panel organized by the Make/Sense PhD program at the Basel Academy of Art and Design FHNW.
+
+For this context, I developed an experimental essay that approaches code as performance, deliberately transgressing the conventions of academic writing. The work engages a crip critical perspective to challenge the rigid temporal logics embedded in computational imaginaries.
+
+By performing cron jobs as chronic jobs, the piece reframes system maintenance as an act of crip care that resists chrononormativity. Its website/poem continually reveals and conceals lines of text as the en-crip-tion algorithm runs, producing a fluctuating digital surface that performs its own temporal politics.
+
+The essay was published in Brand-New-Life, a magazine for art criticism, and can be accessed here:
+https://brand-new-life.org/b-n-l/en-crip-ing-time/
+
+The web-based en-crip-ed poem:
+https://time.cozy-cloud.net/

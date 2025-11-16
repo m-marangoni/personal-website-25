@@ -1,0 +1,7 @@
+Urpflanze (2022)
+conceptual programming language  
+
+This project aims to explore the development of a new esoteric programming language that works beyond the hubris of western thinking that fails to acknowledge other forms of interacting and assigning commands to computational systems. As a conceptual ‘language’, its’ programs wouldn’t be interpreted, compiled, or parsed to run in digital machines, but nevertheless may exist in a purely contemplative form – defiantly challenging the notions of the ‘executable’ and the ‘useful’ that are so intrinsic to Computer Science. 
+In this proposed ‘esolang’, the operations would be based on the morphology of trees, where position, angle, and branch recursion – always relative to the bough – are the main constituents of a valid program.
+
+This project gains momentum in the contemporary context of climate change and the urgent need to steer computational discourses away from mainstream big tech discourses of relentless innovation, careless extraction, and programmed obsolescence that hastens ecological disasters. The goal here is to actively refuse technocapitalization and prometheanism to perceive trees as non-human actors capable of computational reason. 

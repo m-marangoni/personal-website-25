@@ -1,0 +1,9 @@
+Bash Poem — The distance [between us] (2023)
+
+Created for Queering Bash, a workshop by Winnie Soon and Mara Karayanni, hosted by the Sussex Humanities Lab and Full Stack Feminism.
+
+This piece was developed within an ongoing artistic/technical manual organized and published by Winnie Soon and Mara Karayanni, that explores how to “learn code otherwise.” Bash, a traditional command-line interface and scripting language for UNIX systems, is usually associated with efficiency, utility, and system administration. The project subverts these dominant logics by using Bash to write love letters instead: inserting intimacy, desire, and queer affect into a space coded as purely instrumental.
+The poem uses the terminal window itself as an interface for poetic interaction. ASCII-art hands drift apart or come together depending on the size of the terminal, so the distance between the characters is literally reduced when the user manually minimizes the window. 
+The work foregrounds longing, touch, and relationality within a medium where such emotions are rarely expressed or expected. 
+
+Link: https://git.systerserver.net/systerserver/queering-bash/-/tree/main/the_distance_between_us 

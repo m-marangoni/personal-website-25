@@ -1,0 +1,13 @@
+Merciless Entropy (2021)
+
+Installation, Master's thesis
+
+
+This sculptural digital artwork is a monument to the fragile-yet-pervasive foundations of the Internet, and presents a new form of ruin aesthetics that are emerging from the modern Web.
+
+Made of concrete casting, wires, and electronic parts scavenged from obsolete computers, it displays the results of a web crawler script searching for broken URLs, dead-end links, and other forms of ‘internet entropy’: the online wastelands of server errors and forgotten pages that litter the modern Web.  
+
+It interrogates and confronts this ‘internet entropy’ as an often overlooked, and growing, part of the internet – a sprawling space that is  lost in the loop of higher internet speed, hardware improvements, ‘web bloat’, and planned obsolescence. 
+
+Through the sculptural metaphor of architectural ruin, it is questioned what are the characteristics of digital decay in websites and how this is mirrored in the non-digital world, wondering how that desolate view - that both attracts and repels - can instigate alternate aesthetics that draw our attention to these phenomena, rather than hiding them from sight. 
+

@@ -1,0 +1,11 @@
+Wood Wide Web (2023) with Rianna Suen 
+web-based game, generative poetry
+
+An experimental game project created by me and game artist/developer Rianna Suen, and commissioned by Playing Poetry and Phoenix Cinema and Art Centre. 
+It officially launched in January 2023 at the National Poetry Library with a special exhibition-build of the game and a talk with the artists. Housed in a 90s desktop tower teeming with plantlife and sensors, it created a unique interdependency of the generated poetry and the wellbeing of the garden living in the machine.
+
+Wood Wide Web is a walking simulator where words grow on trees and are carried by the wind. Stroll around your own personal landscape and plant words. The words you write may gain sentience and start to form their own ideas. 
+
+
+Play the game here: https://vividfax.itch.io/wood-wide-web 
+Read more about the project here: https://playingpoetry.com/wood-wide-web/

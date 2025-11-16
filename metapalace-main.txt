@@ -1,0 +1,8 @@
+The Metapalace (2020) 
+Interactive fiction    
+
+A retro-aesthetic interactive fiction project inspired by cybernetic theory, ergodic literature, grieving rituals, early net-art, and existential horror. Developed as a month-long solo experiment during the early weeks of the 2020 lockdown, it draws heavily on media theory, referencing thinkers such as Wendy Chun, Alexander Galloway, Friedrich Kittler, N. Katherine Hayles, and Bogna Konior.
+
+The narrative follows a girl attempting to communicate with her late father through an obsolete computer, exploring the residual programs he left behind. Through a hybrid of fiction and critical theory, the work engages with the history of conversational agents—from Joseph Weizenbaum’s ELIZA to contemporary neural language models of its time like GPT-3 and beyond—raising questions about memory, intimacy, obsolescence, and the speculative futures of AI.
+
+Link: https://mmarangoni.itch.io/the-metapalace 

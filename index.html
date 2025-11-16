@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mariana Marangoni</title>
+
+ <style>
+    html, body {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+      width: 100%;
+      background: #484848;
+      font-family: monospace, sans-serif;
+    }
+
+    /* === Outer grid === */
+    .grid {
+      display: grid;
+  grid-template-rows: 1fr 2fr 1fr;
+      grid-template-columns: repeat(4, 1fr);
+      width: 100%;
+      height: 100%;
+      gap: 4px;
+      background: #484848;
+      box-sizing: border-box;
+    }
+
+    iframe, .inner-wrapper {
+      width: 100%;
+      height: 100%;
+      box-sizing: border-box;
+      resize: both; 
+      background: #5b5b5b;
+      border-top: 2px solid #a5a5a5;
+      border-left: 2px solid #b6b6b6;
+      border-right: 2px solid #333333;
+      border-bottom: 2px solid #212121;
+    }
+
+    /* --- The merged central area --- */
+    .inner-wrapper {
+      grid-column: 2 / span 2;  /* occupies columns 2–3 */
+      grid-row: 2;              /* middle row */
+      display: flex;
+      flex-direction: column;
+      background: #a0a0a0;
+      border: 3px solid #c0c0c0;
+      padding: 4px;
+      gap: 4px;
+    }
+
+    /* === Inner nested frames (3 vertical) === */
+    .inner-grid {
+  display: grid;
+  grid-template-rows: 1fr;
+  flex: 1;
+  gap: 4px;
+    }
+
+    .inner-grid iframe {
+      width: 100%;
+      height: 100%;
+      border-top: 2px solid #f0f0f0;
+      border-left: 2px solid #f0f0f0;
+      border-right: 2px solid #707070;
+      border-bottom: 2px solid #707070;
+      background: #e0e0e0;
+      box-sizing: border-box;
+    }
+
+    .pre-frame {
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  background: #5b5b5b;
+  border-top: 2px solid #a5a5a5;
+  border-left: 2px solid #b6b6b6;
+  border-right: 2px solid #333333;
+  border-bottom: 2px solid #212121;
+  overflow: auto;
+  margin: 0;
+  padding: 4px;
+  white-space: pre;
+  font-family: monospace;
+  scrollbar-width: thin;
+  scrollbar-color: #5b5b5b ;
+}
+  </style>
+</head>
+<body>
+  <div class="grid">
+    <!-- Row 1 -->
+    <iframe src="menu.html" name="menu"></iframe>
+    <iframe src="bio.html" name="empty1"></iframe>
+    <iframe src="projects.html" name="empty2"></iframe>
+    <iframe src="writings.html" name="empty3"></iframe>
+
+    <!-- Row 2 -->
+    <!-- <iframe src="petscii (4).txt" name="empty4"></iframe> -->
+<pre id="centerframe-2" class="pre-frame" style="font-size:6px;"></pre>
+
+    <!-- Central merged area (replaces 2 middle iframes) -->
+    <div class="inner-wrapper">
+      <div class="inner-grid">
+        <iframe  id="centerframe-1" style='font-size: 0.1em'src="video.html" name="virtual"></iframe>
+        <!-- <iframe src="petscii (4).txt" name="nyc"></iframe>
+        <iframe src="petscii (4).txt" name="sub-empty"></iframe> -->
+      </div>
+    </div>
+
+    <!-- <iframe src="" name="empty5"></iframe> -->
+<pre id="centerframe-3"class="pre-frame" style="font-size: 6px; font-family: monospace;"></pre>
+
+    <!-- Row 3 -->
+    <iframe src="" name="empty6"></iframe>
+    <iframe src="teaching.html" name="empty7"></iframe>
+    <iframe src="contact.html" name="empty8"></iframe>
+    <iframe src="credits.html" title="256kb, text-only website designed by Mariana Marangoni"> </iframe>
+  </div>
+  
+<!-- 
+  <script>
+    
+fetch("petscii (4).txt")
+    .then(r => r.text())
+    .then(text => {
+        document.getElementById("centerframe-2").textContent = text;
+    });
+
+
+
+fetch("image2.txt")
+    .then(r => r.text())
+    .then(text => {
+        document.getElementById("centerframe-3").textContent = text;
+    });
+</script> -->
+</body>
+</html>

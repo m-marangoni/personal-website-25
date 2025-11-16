@@ -1,0 +1,56 @@
+Against Epistemic Totality (2025)
+
+Performance Lecture, software art
+
+Presented for the first time at the SFPC Open Projector evening in London.
+
+The piece takes the form of an experimental presentation built from automated window processes especifically built for the Microsoft Windows system, transforming the operating system itself into a site of digital performance—at once medium, stage, and subject. 
+By orchestrating system-level behaviours as choreographic elements, the work explores how interfaces, control, and computation shape our sense of agency within everyday digital environments.
+
+Below is an excerpt of the talk:
+
+
+
+
+“an OS is a stack of metaphors and abstractions” 
+
+(Stephenson, 1999)
+
+
+No command line interface was available on the Macintosh; you talked to it with the mouse, or not at all. This was a statement of sorts, a credential of revolutionary purity. It seemed that the designers of the Mac intended to sweep Command Line Interfaces into the dustbin of history.
+
+- It's ironic that in 2018, the terminal is more prominent then ever in any developer scene (thinking only of package managers for diverse programming languages), while in the 90s somehow people thought the GUI could solve all problems, not only for the novices but also for computer experts. -
+
+
+
+  Since the creation of command-line interfaces and the very notion of the "user", these are not neutral, imposing a model of legibility that forecloses its inner logics. They encode specific relational logics rooted in control, productivity, and modularization.
+
+
+ The confinements desktop metaphor that debuted in Xerox Alto personal computers in the 70s are almost unchanged, even after many failed design attempts to make the proverbial, intangible desk-entity into a room or even an entire house (Pipkin, 2020).
+
+ If commercial operating systems serve as sealed epistemic containers - fishbowls of digital abstraction, then alternative OS designs are attempts to crack or even shatter the glass. 
+
+
+These systems do not merely tweak existing paradigms; many of them are built from scratch, grounded in philosophies that resist the standardization, opacity, and abstraction found in the Windows-macOS-Linux triad. 
+
+
+They confront the assumptions of what an OS is for, and what kinds of digital subjectivities it enables or denies.
+
+In stark contrast, Suicide Linux explores OS design as a provocation/performance art. 
+
+
+Every time a user mistypes a command, the system interprets it as 
+
+            rm -rf /
+
+instantly 
+
+DELETING
+
+the 
+
+ENTIRE
+
+filesystem. 
+
+There is no recovery, no safeguard, no undo. A fatalist literalism of the opacity still found in command-line interfaces and the trust placed in abstraction."

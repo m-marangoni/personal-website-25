@@ -1,0 +1,10 @@
+Titivillus (2023)                                 
+Malware Art
+
+Titivillus is an experimental desktop software written in bash that explores the creative potential of malware aesthethics and techniques. It simulates a demonic possession in your computer by the entity known as Titivillus, the medieval demon of scribes, which requires a sacrificial file ritual in order to be exorcized.
+The project utilizes 'daemons', a term used to describe background processes performed by operating systems, as a metaphor for questioning agency, obfuscation, and authority in our daily relationship with digital devices.
+It is part of the SFPC_Malware_Anthology.zip, a collection of work created during An Artist’s History of Computer Viruses and Malware, an online class at School For Poetic Computation taught by Todd Anderson and Herdimas Anggara.
+
+
+
+The entire project is available for download here: https://rhizome.org/editorial/2023/feb/07/sfpc_malware_anthologyzip/

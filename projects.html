@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Projects Menu</title>
+<style>
+  html, body {
+    font-family: monospace, sans-serif;
+    color: whitesmoke;
+      scrollbar-width: thin;
+
+    font-size: 0.9rem;
+
+  }
+  a { color: #fff; text-decoration: none; }
+  a:hover { text-decoration: underline; }
+</style>
+</head>
+<body>
+
+<details>
+  <summary>Projects</summary>
+  <br>
+
+  <a href="#" data-file="compost">Compost Computer (2025 - ongoing)</a><br><br>
+  <a href="#" data-file="against-epistemic-totality">Against Epistemic Totality (2025)</a><br><br>
+    <a href="#" data-file="encriping">En-crip-ing Time (2024)</a><br><br>
+      <a href="#" data-file="critical-climate">Critical Climate Computing - Website (2024)</a><br><br>
+  <a href="#" data-file="overflowing">Overflowing Gardens of Decay (2021–24)</a><br><br>
+  <a href="#" data-file="bash-poetry">Bash Poetry – For Queering Bash (2023)</a><br><br>
+  <a href="#" data-file="titivillus">Titivillus.exe (2023)</a><br><br>
+  <a href="#" data-file="wood-wide-web">Wood Wide Web (2023)</a><br><br>
+  <a href="#" data-file="urpflanze">Urpflanze (2022)</a><br><br>
+  <a href="#" data-file="merciless">Merciless Entropy (2021)</a><br><br>
+  <a href="#" data-file="nepenthe">Nepenthe (2020)</a><br><br>
+  <a href="#" data-file="metapalace">The Metapalace (2020)</a><br><br>
+  <!-- <a href="#" data-file="cassandra-mission">Cassandra Mission (2019)</a><br> -->
+</details>
+
+<script>
+const projectFiles = {
+  "compost": [
+    "compost.txt",
+    "compost-side.txt",
+    "compost-extra.txt"
+  ],
+  "against-epistemic-totality": [
+    "aet-main.txt",
+    "aet-side.txt",
+    "aet-extra.txt"
+  ],
+  "critical-climate": [
+    "critical-main.txt",
+    "critical-side.txt",
+    "critical-extra.txt"
+  ],
+  "encriping": [
+    "encriping-main.txt",
+    "encriping-side.txt",
+    "encriping-extra.txt"
+  ],
+  "overflowing": [
+    "overflowing.txt",
+    "overflow-side.txt",
+    "overflow-extra.txt"
+  ],
+  "bash-poetry": [
+    "bash-main.txt",
+    "bash-side.txt",
+    "bash-extra.txt"
+  ],
+  "titivillus": [
+    "titivillus-main.txt",
+    "titivillus-side.txt",
+    "titivillus-extra.txt"
+  ],
+  "wood-wide-web": [
+    "wood-wide-web-main.txt",
+    "wood-side.txt",
+    "wood-extra.txt"
+  ],
+  "urpflanze": [
+    "urpflanze.txt",
+    "urpflanze-side.txt",
+    "urpflanze-extra.txt"
+  ],
+  "merciless": [
+    "merciless.txt",
+    "merciless-side.txt",
+    "merciless-extra.txt"
+  ],
+  "nepenthe": [
+    "nepenthe-main.txt",
+    "nepenthe-side.txt",
+    "nepenthe-extra.txt"
+  ],
+  "metapalace": [
+    "metapalace-main.txt",
+    "metapalace-side.txt",
+    "metapalace-extra.txt"
+  ],
+  "cassandra-mission": [
+    "cassandra-main.txt",
+    "cassandra-side.txt",
+    "cassandra-extra.txt"
+  ]
+};
+
+document.addEventListener("click", function(e) {
+  const link = e.target.closest("[data-file]");
+  if (!link) return;
+
+  e.preventDefault();
+  const key = link.getAttribute("data-file");
+  const files = projectFiles[key];
+
+  if (!files) return console.error("No files mapped for this project");
+
+  files.forEach((file, index) => {
+    const el = window.parent.document.getElementById(`centerframe-${index+1}`);
+    if (!el) return;
+
+    if (el.tagName === "IFRAME") {
+      el.src = file;
+    } else if (el.tagName === "PRE") {
+      fetch(file)
+        .then(r => r.text())
+        .then(text => el.textContent = text)
+        .catch(err => console.error(`Failed to load ${file}:`, err));
+    }
+  });
+});
+</script>
+
+</body>
+</html>

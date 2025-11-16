@@ -1,0 +1,37 @@
+Compost Computer: More-Than Human Design through Critical Climate Computing (2025 - ongoing)
+UAL’s Critical Climate Computing Initiative (CCCI)
+
+In collaboration with Shinji Toya
+Project Leaders: Eva Verhoeven and Wesley Goatley 
+
+
+As the carbon footprint of computation grows ever more urgent, there is a pressing need to rethink what it means to design technology responsibly. This project takes a more-than-human approach, treating digital systems not as isolated tools, but as nodes entangled within ecological, social, and material networks. Technology, climate, and design are inseparable, and it is precisely in their intersections that new possibilities emerge.
+
+As one of the main researchers involved in the project, The Critical Climate Computing Initiative (CCCI) in collaboration with FutureEverything,MUD, and Sow the City, a local permaculture collective, has constructed a proof-of-concept Microbial Fuel Cell (MFC) server fed with Platt Fields compost. This process is not merely about efficiency; it is about cultivating attentiveness to the material consequences of our digital infrastructures, and to the ethical and ecological responsibilities embedded in every pixel and circuit.
+
+Through this work, we seek to demonstrate how cross-sector collaborations, rooted in community knowledge and ecological practice, can expand the imagination of what digital design might be. The resulting platform will be both a working demonstration of a biobattery-powered server and a critical experiment in climate-conscious computational approaches.
+
+A content-aware image editing tool was also developed for this project, seeking to reduce Future Everything's image archives' file size by averaging pixels and mapping them to a compact color palette, preserving detail in key areas while compressing simpler regions. Tool available here: 
+
+https://m-marangoni.github.io/compost-img-tool/
+
+Read more about the project here: (TBA)
+
+
+
+Credits:  
+
+Project Lead and Management – Wesley Goatley and Eva Verhoeven
+
+Project concept, ideation and research – Mariana Marangoni, Shinji Toya
+
+Web design and back-end, server architecture lead – Mariana Marangoni
+
+Additional Web development - Alistair McClymont, Kevin Lee
+
+MFC power system and physical computing lead – Shinji Toya
+
+Technical support and consultation:
+
+-	Felix Loftus, Karsten Goodwin – Specialist Technicians, Central Saint Martins College of Art and Design, Physical Computing Lab  
+-	Agnes Cameron - Specialist Technician, Creative Computing Institute 
